@@ -34,6 +34,7 @@ class OrePopulator implements Populator{
 		$this->addOre(new OreType(VanillaBlocks::REDSTONE_ORE(), 0, 16, 7), 8);
 		$this->addOre(new OreType(VanillaBlocks::DIAMOND_ORE(), 0, 16, 7), 1);
 		$this->addOre(new OreType(VanillaBlocks::LAPIS_LAZULI_ORE(), 16, 16, 6), 1);
+		$this->addOre(new OreType(VanillaBlocks::COPPER_ORE(), 4, 63, 8), 20);
 	}
 
 	protected function addOre(OreType $type, int $value) : void{
